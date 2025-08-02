@@ -9,7 +9,7 @@ import Foundation
 
 
 
-protocol EndpointProtocol {
+/*protocol EndpointProtocol {
     var baseURL: String {get}
     var path: String {get}
     var method: HTTPMethod {get}
@@ -22,7 +22,7 @@ enum HTTPMethod: String {
     case post = "POST"
     case delete = "DELETE"
     case patch = "PATCH"
-}
+}*/
 
 enum Endpoint {
     static func movies(page: Int) -> String {
